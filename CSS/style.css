@@ -1,101 +1,101 @@
-    *{
-    padding: 0;
-    margin: 0;
-    }
+        *{
+        padding: 0;
+        margin: 0;
+        }
 
 
-    body{
+        body{
+            font-family: Arial;
+            background-color: black;
+            
+            
+        }
+
+        .container{
+        max-width: 1000px;
+        }
+
+        header{
+            color: white;
+            text-align: center;
+            background-color: #3678f1;
+            padding: 5px;
+
+        }
+
+        .title{
         font-family: Arial;
-        background-color: black;
-        
-        
-    }
+        }
 
-    .container{
-    max-width: 1000px;
-    }
+        section{
+            background-image: url('../imagens/people.jpg');
+            color:black;
+            padding:20px;
+            overflow: hidden;  
+        }
 
-    header{
-        color: white;
-        text-align: center;
-        background-color: #3678f1;
-        padding: 5px;
+        .FormContainer{
+            max-width: 260px;
+            background-color: #FFFFFFBB;
+            padding: 20px;
+            float: right
+        }
+        h2{
+            font-size: 20px;
 
-    }
+        }
+        .mb{
+            margin-bottom: 20px;
+        }
 
-    .title{
-    font-family: Arial;
-    }
+        input, select{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            border: none;
+            margin-bottom: 10px;
+        }
 
-    section{
-        background-image: url('../imagens/people.jpg');
-        color:black;
-        padding:20px;
-        overflow: hidden;  
-    }
+        input[type="submit"]{
+            color:white;
+            background-color:#3678f1;
+            font-weight: bold;
+        }
 
-    .FormContainer{
-        max-width: 260px;
-        background-color: #FFFFFFBB;
-        padding: 20px;
-        float: right
-    }
-    h2{
-        font-size: 20px;
+        select{
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;
+            background-image: url('../imagens/arrow.jpg');
+            background-repeat: no-repeat;
+            background-position: calc(100% - 10px) center;
+        }
 
-    }
-    .mb{
-        margin-bottom: 20px;
-    }
+        footer{
+            background-color: #202121;
+            padding: 40px;
+            text-align: center;
+            
+        }
+        .picture{
+            width: 150px;
+            
+        }
+        .description{
+            color: white;
+            display:inline-block;
+            text-align: left;
+            max-width: 300px;
+            margin: left 40px;
+            margin-bottom: 20px;
+        }
 
-    input, select{
-        width: 100%;
-        box-sizing: border-box;
-        padding: 10px;
-        border: none;
-        margin-bottom: 10px;
-    }
-
-    input[type="submit"]{
-        color:white;
-        background-color:#3678f1;
-        font-weight: bold;
-    }
-
-    select{
-        -moz-appearance: none;
-        -webkit-appearance: none;
-        appearance: none;
-        background-image: url('../imagens/arrow.jpg');
-        background-repeat: no-repeat;
-        background-position: calc(100% - 10px) center;
-    }
-
-    footer{
-        background-color: #202121;
-        padding: 40px;
-        text-align: center;
-        
-    }
-    .picture{
-        width: 150px;
-        
-    }
-    .description{
-        color: white;
-        display:inline-block;
-        text-align: left;
-        max-width: 300px;
-        margin: left 40px;
-        margin-bottom: 20px;
-    }
-
-    .description p, .description h3,{
-        margin-bottom: 20px;
-    }
+        .description p, .description h3{
+            margin-bottom: 20px;
+        }
 
 
-    .description h3{
-        font-size: 30px;
-        color:red;
-    }
+        .description h3{
+            font-size: 30px;
+            color:red;
+        }
