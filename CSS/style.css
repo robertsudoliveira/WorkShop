@@ -79,7 +79,8 @@
         }
         .picture{
             width: 150px;
-            
+            margin-right: 10px;
+            border-radius: 8px;
         }
         .description{
             color: white;
@@ -99,3 +100,18 @@
             font-size: 30px;
             color:red;
         }
+        @media  (max-width: 768px){
+            
+            .FormContainer{
+                width: 100%;
+                float: none;
+                margin: 0 auto;
+            }
+            
+            footer .description {
+                text-align: center;
+                
+            }
+        }
+
+        
